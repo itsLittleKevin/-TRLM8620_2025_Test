@@ -13,11 +13,18 @@ const i18n = {
             }
         };
         try {
+            console.log(`Loading strings for locale: ${newLocale}`);
             const response = await fetch(`./content/${newLocale}/strings.json`, options)
+            console.log(`Response status: ${response.status} for ${newLocale}`);
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
             stringsJSON = await response.json();
+            console.log(`Successfully loaded strings for ${newLocale}, keys:`, Object.keys(stringsJSON));
         } catch (err) {
-            console.log('Error getting strings', err);
+            console.error(`Error loading strings for ${newLocale}:`, err);
             if (newLocale != "en-US") {
+                console.log(`Falling back to en-US due to error`);
                 updateLocale("en-US");
             }
         }
