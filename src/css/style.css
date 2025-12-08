@@ -1025,6 +1025,16 @@ p {
     padding: 10px;
   }
   
+  /* Browse grid - change from 1x4 to 4x1 */
+  .browseGrid {
+    grid-template-columns: 1fr !important;
+    grid-auto-rows: auto;
+  }
+  
+  .browseGrid article {
+    margin: 10px 0;
+  }
+  
   /* Product grid */
   .productContainer {
     grid-template-columns: 1fr !important;
@@ -1035,6 +1045,18 @@ p {
   /* Product cards */
   .productCard {
     max-width: 100%;
+  }
+  
+  /* Order history grid - change from 1x4 to 4x1 */
+  .orderHistory .headings,
+  .orderHistory .orderItem {
+    grid-template-columns: 1fr !important;
+    gap: 10px;
+  }
+  
+  .orderHistory .headings h3,
+  .orderHistory .orderItem p {
+    padding: 5px 0;
   }
   
   /* Product show page */
