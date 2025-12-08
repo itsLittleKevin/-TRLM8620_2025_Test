@@ -46,6 +46,18 @@ body canvas {
   top: 0;
   left: 0;
   z-index: -1;
+  pointer-events: all;
+}
+
+/* Allow mouse events to reach the canvas while keeping content interactive */
+#app {
+  position: relative;
+  z-index: 1;
+  pointer-events: none;
+}
+
+#app * {
+  pointer-events: auto;
 }
 
 .loading {
