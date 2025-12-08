@@ -48,9 +48,9 @@
         "symbolAlt": "Keizerlijke Credit valutasymbool"
     },
     "Browse": {
-        "browseTitleAll": "Alle",
-        "browseTitleDroids": " droïden",
-        "browseTitleVehicles": " voertuigen"
+        "browseTitleAll": "Alle producten",
+        "browseTitleDroids": "Alle droïden",
+        "browseTitleVehicles": "Alle voertuigen"
     },
     "Checkout": {
         "checkoutTitle": "Afrekenen",
@@ -74,6 +74,7 @@
         "expDateLabel": "Vervaldatum",
         "expDateMonthPlaceholder": "MM",
         "expDateYearPlaceholder": "JJ",
+        "warningBanner": "Studenten: negeer eventuele i18n-fouten op deze pagina (zoals naamvolgorde, datuminvoer, enz.)",
         "cartTitle": "Winkelwagen",
         "deleteAlt": "artikel uit winkelwagen verwijderen",
         "totalLabel": "Totaal: ",

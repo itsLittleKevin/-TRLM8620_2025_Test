@@ -33,6 +33,7 @@ let Checkout = {
         let expDateLabel = i18n.getString("Checkout", "expDateLabel");
         let expDateMonthPlaceholder = i18n.getString("Checkout", "expDateMonthPlaceholder");
         let expDateYearPlaceholder = i18n.getString("Checkout", "expDateYearPlaceholder");
+        let warningBanner = i18n.getString("Checkout", "warningBanner");
         let cartTitle = i18n.getString("Checkout", "cartTitle");
         let deleteAlt = i18n.getString("Checkout", "deleteAlt");
         let totalLabel = i18n.getString("Checkout", "totalLabel");
@@ -53,7 +54,7 @@ let Checkout = {
         <section class="checkout">
 
             <div class="checkoutDetails">
-                <h2 class="center">Students: Please ignore any i18n errors on this page! (Incl. name order, date input, etc.)</h2>
+                <h2 class="center">${warningBanner}</h2>
                 <h1>${checkoutTitle}</h1>
                 <div class="shippingInfo">
                     <h2>${shipSectionLabel}</h2>

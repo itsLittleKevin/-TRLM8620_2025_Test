@@ -48,9 +48,9 @@
         "symbolAlt": "Imperial Credit currency symbol"
     },
     "Browse": {
-        "browseTitleAll": "All",
-        "browseTitleDroids": " droids",
-        "browseTitleVehicles": " vehicles"
+        "browseTitleAll": "All products",
+        "browseTitleDroids": "All droids",
+        "browseTitleVehicles": "All vehicles"
     },
     
     "Checkout": {
@@ -75,6 +75,7 @@
         "expDateLabel": "Expiration Date",
         "expDateMonthPlaceholder": "MM",
         "expDateYearPlaceholder": "YY",
+        "warningBanner": "Students: Please ignore any i18n errors on this page! (Incl. name order, date input, etc.)",
         "cartTitle": "Shopping Cart",
         "deleteAlt": "remove item from cart",
         "totalLabel": "Total: ",
